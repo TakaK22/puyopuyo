@@ -4,6 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="widht=devicewidth" />
     <title>ぷよぷよプログラミングを体験してみよう！</title>
+    <script src="src/config.js"></script>
+    <script src="src/stage.js"></script>
+    <script src="src/score.js"></script>
+    <script src="src/puyoimage.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/game.js"></script>
   </head>
-  <body></body>
+  <body style="margin: 0;">
+    <div id="stage" url(img/puyo_1.png)></div>
+    <div id="score" style="margin: 0 auto; overflow: hidden; text-align: right;"></div>
+    <div style="display: none;">
+      <img src="img/puyo_1.png" id="puyo_1" />
+    </div>
+  </body>
 </html>
